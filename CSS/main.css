@@ -1,0 +1,120 @@
+body
+{
+    margin: 0;
+}
+#myvideo
+{
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+nav
+{
+    display: inline-block;
+    margin: 0 auto;
+}
+img#logo
+{  
+    height:18px;
+    width:98px;
+    padding-left:20px; 
+    padding-top: 14px;
+    margin: 0 auto;
+
+}
+.nav
+{
+    padding-left:356px;
+}
+.nav-right 
+{
+    float: right;
+    padding-left: 350px;
+    
+}
+.nav a,.nav-right a
+{
+    padding:5px 7px 2px 2px; 
+    text-decoration: none;
+    font-family: 'Gotham-Bold';
+    font-weight: 400;
+    color: white;
+    line-height: 16px;
+    font-size: 13px;
+    transition: 0.2s;
+}
+.nav a:hover
+{
+    color: grey;
+}
+
+.heading
+{
+    text-align: center;
+    font-family: 'Gotham-Book';
+    font-size:40px;
+    color: #ffffff;
+    line-height: 60px;
+    padding: 68px 0px 0px 0px;
+}
+section
+{
+    padding-top: 38px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+button .btn
+{
+    padding-left: 10px;
+}
+section .btn
+{
+  background-color: rgba(0,0,0, 0.60);
+  border: none;
+  outline: none;
+  font-size: 13px;
+  padding: 12px 37px;
+  color: rgba(255,255,255, 0.3);
+ 
+}
+
+section a
+{
+    text-decoration: none;
+    font-family: 'Gotham-Bold';
+    color: white;
+}
+div.section-footer,div.section-footer a
+{
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 18px;
+    font-weight: 700;
+    font-family: 'Gotham-Book';
+    color: white;
+}
+
+div.section-footer a:hover
+{
+    color: red;
+}
+footer
+{ 
+    padding-top: 278px;
+    font-family: 'Gotham-Book';
+    color: white;
+    line-height: 20px;
+    font-size: 13px;
+}
+footer ul
+{
+    text-align: center;
+}
+ul li
+{   padding-left:60px;
+    display: inline;
+}
