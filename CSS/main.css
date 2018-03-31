@@ -10,33 +10,32 @@ body
     max-width: 100%;
     z-index: -1;
 }
-nav
+div.img1
 {
-    display: inline-block;
-    margin: 0 auto;
+    height: 18px;
 }
 img#logo
 {  
     height:18px;
     width:98px;
-    padding-left:20px; 
-    padding-top: 14px;
+    padding-left: 18px;
+    padding-top: 16px;
     margin: 0 auto;
 
 }
 .nav
 {
-    padding-left:356px;
+    padding-left:490px 
 }
 .nav-right 
-{
-    float: right;
-    padding-left: 350px;
+{   
+    margin: 0 auto;
+    float: right; 
     
 }
 .nav a,.nav-right a
 {
-    padding:5px 7px 2px 2px; 
+    padding:0px 13px 0px 0px; 
     text-decoration: none;
     font-family: 'Gotham-Bold';
     font-weight: 400;
@@ -45,9 +44,9 @@ img#logo
     font-size: 13px;
     transition: 0.2s;
 }
-.nav a:hover
+.nav a:hover,.nav-right a:hover
 {
-    color: grey;
+    color: rgba(161, 157, 157, 0.959);
 }
 
 .heading
@@ -78,7 +77,6 @@ section .btn
   font-size: 13px;
   padding: 12px 37px;
   color: rgba(255,255,255, 0.3);
- 
 }
 
 section a
@@ -104,7 +102,7 @@ div.section-footer a:hover
 }
 footer
 { 
-    padding-top: 278px;
+    padding-top: 280px;
     font-family: 'Gotham-Book';
     color: white;
     line-height: 20px;
