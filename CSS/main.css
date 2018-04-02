@@ -61,29 +61,34 @@ img#logo
 section
 {
     padding-top: 38px;
-    display: flex;
     text-align: center;
-    justify-content: center;
-}
-button .btn
-{
-    padding-left: 10px;
-}
-section .btn
-{
-  background-color: rgba(0,0,0, 0.60);
-  border: none;
-  outline: none;
-  font-size: 13px;
-  padding: 12px 37px;
-  color: rgba(255,255,255, 0.3);
 }
 
-section a
+section button
+{
+  background-color: rgba(0,0,0, 0.60);
+  border: 0 solid black;
+  outline: none;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 12px 35px;
+  color: rgba(255,255,255, 0.3);
+  text-decoration: none;
+  font-family: 'Gotham-Bold';
+  transition: border-color 2s ease;
+  color: white;
+}
+
+.btns a
 {
     text-decoration: none;
     font-family: 'Gotham-Bold';
     color: white;
+}
+button:hover
+{
+    cursor: pointer;  
+    border: .4px solid  white;
 }
 div.section-footer,div.section-footer a
 {
